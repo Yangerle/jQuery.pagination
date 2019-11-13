@@ -1,0 +1,53 @@
+
+.page-switch{
+    display: inline-block;
+}
+.page-switch>div{
+    float: left;
+    cursor: pointer;
+}
+
+.page-switch .switch-skip{
+    cursor: default;
+}
+.page-switch img{
+    margin: 0px 4px;
+    width: 30px;
+    height: 30px;
+}
+.page-switch .page-current{
+    border-radius: 8px;
+    background-color: #00b2b2;
+}
+.page-switch ul,.page-switch li{
+    padding:0;
+    margin:0;
+    list-style:none
+}
+.page-switch li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    min-width: 20px;
+    text-align: center;
+    padding: 0px 5px;
+}
+.page-switch .switch-skip{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    padding: 0 13px;
+}
+.page-switch .switch-skip-input{
+    width:40px ;
+    background-color:transparent;
+    height: 22px;
+    border-radius: 8px;
+    border: solid 2px rgba(0, 255, 255, 0.5);
+    color: black;
+    text-align: center;
+    margin: 0px 3px;
+
+
+}
